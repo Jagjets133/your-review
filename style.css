@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/**----------------------- index ------------------------ **/
+
+body div.index {
+    width: 100%;
+    text-align: center;
+}
+
+div.index .dashed-border {
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    border: 3px dashed #000000;
+}
+
+div.index a img {
+    padding: 8px 16px;
+}
+
+
+
+
+
+/**----------------------- pages ------------------------- **/
+
+body div:first-child {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    height: 20px;
+    padding: 10px;
+}
+
+.p1-b2,
+.p1-b3,
+.p2-b3 {
+    background: #eaeaea;
+}
+
+.p1-b1,
+.p2-b2,
+.p3-b3 {
+    background: #6583e4;
+}
+
+.p2-b1,
+.p3-b2,
+.p3-b1 {
+    background: #7ff0b2;
+}
+
+fieldset {
+    width: 550px;
+    height: 350px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+fieldset.page3 {
+    height: 370px;
+}
+
+legend,
+label {
+    font-weight: bold;
+}
+
+.input {
+    width: 350px;
+    height: 25px;
+}
+
+.cnic-input {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 2px;
+    width: max-content;
+}
+
+.cnic-input input {
+    width: 10px;
+    text-align: center;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+
+    &:hover {
+        background-color: #dddddd;
+    }
+}
+
+.previous {
+    background: #f1f1f1;
+    color: #000000;
+}
+
+.next {
+    background: #044caa;
+    color: #ffffff;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #2fa564;
+    color: #ffffff;
+    cursor: pointer;
+}

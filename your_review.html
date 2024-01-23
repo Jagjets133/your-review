@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your REVIEW</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/png">
+</head>
+
+<body>
+
+    <div>
+        <div class="container">
+            <div class="p3-b1">Step 1: ACCOUNT</div>
+        </div>
+
+        <div class="container">
+            <div class="box-23 p3-b2">Step 2: PERSONAL DETAIL</div>
+        </div>
+
+        <div class="container">
+            <div class="box-33 p3-b3">Step 3: YOUR REVIEW</div>
+        </div>
+    </div>
+
+    <div>
+        <fieldset class="page3">
+            <legend>Your Review</legend>
+
+            <div>
+                <label for="hear-about"> How did you hear about us?</label>
+                <select name="referrer" id="hear-about">
+                    <option disabled selected value="">Select your option</option>
+                    <option value="google">Google</option>
+                    <option value="friend">Friend Circle</option>
+                    <option value="advertising">Advertising</option>
+                    <option value="relatives">Relatives</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <label for="rating">Would you visit again?</label>
+            <div>
+                <input type="radio" name="rating" value="yes">Yes
+                <input type="radio" name="rating" value="no">No
+                <input type="radio" name="rating" value="maybe">Maybe
+
+            </div>
+
+            <div>
+                Comment: <br />
+                <textarea id="comments" rows="5" cols="25" placeholder="Write your comment here"></textarea>
+            </div>
+
+            <input type="file" id="file-input">
+
+            <div>
+                <input type="checkbox" name="subscribe" checked="">
+                <span>Sign me up for Email updates</span>
+            </div>
+            <div>
+                <a href="./persnol_details.html" class="previous">« Back</a>
+                <input type="submit" value="Submit" class="submit-button">
+            </div>
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
